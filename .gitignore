@@ -1,0 +1,63 @@
+# Environments
+.env
+.env.*
+!.env.example
+venv/
+env/
+.venv/
+
+# Backup / Custom
+backup_old/
+
+# Terraform clean-up output
+terraform_destroy.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# Azure CLI
+.azure/

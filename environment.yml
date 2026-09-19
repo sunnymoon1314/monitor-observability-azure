@@ -1,0 +1,13 @@
+name: azure_monitor
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - setuptools==69.5.1
+      - Flask==3.0.3
+      - azure-monitor-opentelemetry==1.8.9
+      - python-dotenv==1.0.1
+      - requests==2.32.3
